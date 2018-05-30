@@ -1,0 +1,28 @@
+.border {
+  border: 2px solid blue;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+.left {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+.right {
+  float: right;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+.bottom {
+  width: 350px;
+  height: 30px;
+  background-color: green;
+}
+/* 擬似要素 */
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
